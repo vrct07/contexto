@@ -314,6 +314,141 @@ header, .navbar {
     margin: 10px;
 }
 
+/* Responsive */
+
+@media(max-width: 768px) {
+
+    /* geral */
+    .container {
+        padding: 20px 0;
+    }
+
+    /* Slider */
+    #mainSlider .carousel-inner, #mainSlider .carousel-item {
+        height: auto;
+    }
+
+    #mainSlider .carousel-caption p {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    .carousel-caption {
+        left: 10%;
+        right: 10%;
+    }
+
+    /* About */
+    #about-area img {
+        margin-top: 300px;
+    }
+
+    /* Services */
+    .img-service-1 {
+        height: 250px;
+        width: 250px;
+        align-items: center;
+        
+    }
+    
+    .img-service-2 {
+        height: 250px;
+        width: 250px;
+        align-items: center;
+    }
+    
+    .img-service-3 {
+        height: 240px;
+        width: 250px;
+        align-items: center;
+    }
+    
+    .img-service-4 {
+        height: 250px;
+        width: 250px;
+        align-items: center;
+    }
+    
+    .img-service-5 {
+        height: 250px;
+        width: 250px;
+        align-items: center;
+    }
+    
+    .img-service-6 {
+        height: 250px;
+        width: 250px;
+        align-items: center;
+    }
+
+    /*data */
+    .circle-box div {
+        padding: 0 10px;
+    }
+
+    #data-area p {
+        font-size: 16px;
+    }
+
+
+    /* Clinics */
+    .img-fluid {
+        margin-bottom: 30px;
+        border-radius: 10px;
+        height: 200px;
+    }
+}
+
+@media(max-width: 425px) {
+
+    /* slider */
+    #mainSlider {
+        margin-top:  100px;
+    }
+
+    /* about */
+    .main-title {
+        font-size: 30px;
+    }
+
+    #about-area img {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    /* data */
+    .circle-box {
+        width: 50%;
+    }
+
+    /* Clinics */
+    .project-box {
+        width: 50%;
+    }
+
+    /* Contact */
+    .contact-box {
+        border: none;
+        margin-bottom: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* botões decorados*/
