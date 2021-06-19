@@ -56,7 +56,7 @@ header, .navbar {
     color: #17739e;
 }
 
-#clinic-menu:hover {
+#consult-menu:hover {
     color: #17739e;
 }
 
@@ -85,7 +85,7 @@ header, .navbar {
 
 /* Quem somos ? */
 #about-area {
-    background-color: rgb(23, 115, 158);
+    background-color: rgb(255, 255, 255);
 }
 
 .main-title {
@@ -414,6 +414,12 @@ header, .navbar {
     #about-area img {
         margin-top: 0;
         margin-bottom: 30px;
+
+    }
+
+    #about-img {
+        
+
     }
 
     /* data */

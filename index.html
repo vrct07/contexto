@@ -25,11 +25,11 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
                     <div class="navbar-nav">
-                        <a href="#mainSlider" class="nav-item nav-link" id="home-menu">Home</a>
-                        <a href="#quem-somos" class="nav-item nav-link" id="about-menu">Quem Somos?</a>
-                        <a href="#servicos" class="nav-item nav-link" id="services-menu">Serviços</a>
-                        <a href="#consultorios" class="nav-item nav-link" id="clinic-menu">Consultórios</a>
-                        <a href="#contatos" class="nav-item nav-link" id="contact-menu">Contato</a>
+                        <a class="nav-item nav-link" id="home-menu"  href="#">Home</a>
+                        <a class="nav-item nav-link" id="about-menu" href="#">Quem Somos?</a>
+                        <a class="nav-item nav-link" id="services-menu" href="#">Serviços</a>
+                        <a class="nav-item nav-link" id="consult-menu" href="#">Consultórios</a>
+                        <a class="nav-item nav-link" id="contact-menu" href="#">Contato</a>
                     </div>
                 </div>
             </nav>
@@ -37,6 +37,7 @@
     </header>
     <main>
         <div class="container-fluid">
+            <!-- Slider -->
             <div id="mainSlider" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
@@ -73,16 +74,16 @@
                 </a>
             </div>
             <!--Quem somos-->
-            <div class="about-area">
+            <div id="about-area">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <h3 id="quem-somos" class="main-title">Quem somos?</h3>
+                            <h3 class="main-title">Quem somos?</h3>
                         </div>
                         <div class="col-md-6">
                             <br>
                             <br>
-                            <img class="img-fluid" src="img/quem-somos.jpg" alt="quem somos">
+                            <img id="about-img" class="img-fluid" src="img/quem-somos.jpg" alt="quem somos">
                         </div>
                         <div class="col-md-6">
                             <br>
@@ -103,12 +104,12 @@
                     </div>
                 </div>
             </div>
-            <!--Serviços da empresa-->
+            <!-- Serviços da empresa -->
             <div id="services-area">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <h3 id="servicos" class="main-title">Serviços</h3>
+                            <h3 class="main-title">Serviços</h3>
                         </div>
                         <div class="col-md-4 service-box">
                             <i><img class="img-service-2" src="img/avaliacao-psicossocial.jpg" alt="serviço 1"></i>
@@ -144,7 +145,6 @@
                 </div>
             </div>
             <!-- Dados da Empresa -->
-
             <div id="data-area">
                 <div class="container">
                     <div class="row">
@@ -173,7 +173,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <h3 id="consultorios" class="main-title">Nossos consultórios</h3>
+                            <h3 class="main-title">Nossos consultórios</h3>
                         </div>
                         <div class="col-md-4 project-box">
                             <img src="img/escritorio/escritorio-1.jpg" class="img-fluid" alt="escritório 1">
@@ -205,7 +205,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h3 id="contatos" class="main-title">Entre em contato conosco</h3>
+                        <h3 class="main-title">Entre em contato conosco</h3>
                     </div>
                     <div class="col-md-4 contact-box">
                         <i class="fas fa-phone"></i>
