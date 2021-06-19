@@ -25,11 +25,11 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
                     <div class="navbar-nav">
-                        <a href="#" class="nav-item nav-link" id="home-menu">Home</a>
-                        <a href="#" class="nav-item nav-link" id="about-menu">Quem Somos?</a>
-                        <a href="#" class="nav-item nav-link" id="services-menu">Serviços</a>
-                        <a href="#" class="nav-item nav-link" id="services-menu">Consultórios</a>
-                        <a href="#" class="nav-item nav-link" id="contact-menu">Contato</a>
+                        <a href="#mainSlider" class="nav-item nav-link" id="home-menu">Home</a>
+                        <a href="#quem-somos" class="nav-item nav-link" id="about-menu">Quem Somos?</a>
+                        <a href="#servicos" class="nav-item nav-link" id="services-menu">Serviços</a>
+                        <a href="#consultorios" class="nav-item nav-link" id="clinic-menu">Consultórios</a>
+                        <a href="#contatos" class="nav-item nav-link" id="contact-menu">Contato</a>
                     </div>
                 </div>
             </nav>
@@ -77,7 +77,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <h3 class="main-title">Quem somos?</h3>
+                            <h3 id="quem-somos" class="main-title">Quem somos?</h3>
                         </div>
                         <div class="col-md-6">
                             <br>
@@ -108,7 +108,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <h3 class="main-title">Serviços</h3>
+                            <h3 id="servicos" class="main-title">Serviços</h3>
                         </div>
                         <div class="col-md-4 service-box">
                             <i><img class="img-service-2" src="img/avaliacao-psicossocial.jpg" alt="serviço 1"></i>
@@ -173,7 +173,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <h3 class="main-title">Nossos consultórios</h3>
+                            <h3 id="consultorios" class="main-title">Nossos consultórios</h3>
                         </div>
                         <div class="col-md-4 project-box">
                             <img src="img/escritorio/escritorio-1.jpg" class="img-fluid" alt="escritório 1">
@@ -196,12 +196,58 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </main>
 
+    <!-- Rodapé -->
+    <footer>
+        <div id="contact-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 id="contatos" class="main-title">Entre em contato conosco</h3>
+                    </div>
+                    <div class="col-md-4 contact-box">
+                        <i class="fas fa-phone"></i>
+                        <p><span class="contact-title">Ligue para:</span> (21) 12345-6789</p>
+                        <p><span class="contact-title">Horários:</span> 08:00 - 18:00</p>
+                    </div>
+                    <div class="col-md-4 contact-box">
+                        <i class="fas fa-envelope"></i>
+                        <p><span class="contact-title">Envie um e-mail:</span> contato@contextos.com.br</p>
+                    </div>
+                    <div class="col-md-4 contact-box">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p><span class="contact-title">Venha nos visitar:</span> R. Prof. Gusmão, 494 - Praia Campista, Macaé - RJ, 27923-311</p>
+                    </div>
+                    <div class="col-md-6" id="msg-box">
+                        <p>Ou nos deixe uma mensagem:</p>
+                    </div>
+                    <div class="col-md-6" id="contact-form">
+                        <form action="">
+                            <input type="name" class="form-control" placeholder="Name" name="name">
+                            <input type="email" class="form-control" placeholder="E-mail" name="email">
+                            <input type="text" class="form-control" placeholder="Assunto" name="subject">
+                            <textarea class="form-control" rows="3" placeholder="Sua mensagem..." name="message"></textarea>
+                            <input type="submit" class="main-btn" value="Enviar">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="copy-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Desenvolvido por <a href="https://www.linkedin.com/in/vrct/" target="_blank">Vitor Costa</a> &copy; 2021</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
+        
 
 
 
