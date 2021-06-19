@@ -124,7 +124,7 @@ header, .navbar {
 }
 
 #about-list i {
-    color: #444;
+    color: #0b90ce;
     margin-right: 15px;
 }
 
@@ -213,4 +213,12 @@ header, .navbar {
     text-align: center;
     font-size: 26px;
     margin-top: 20px;
+}
+
+/* Nossos escritórios */
+
+.img-fluid {
+    margin-bottom: 30px;
+    border-radius: 10px;
+    height: 340px;
 }
