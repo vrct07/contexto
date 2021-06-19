@@ -18,7 +18,7 @@ p, li {
 
 /* Barra de navegação */
 header, .navbar {
-    background-color: #67c0e9;
+    background-color: #8ad1f1;
 }
 
 #nav-container {
@@ -59,7 +59,7 @@ header, .navbar {
 }
 
 #mainSlider .carousel-inner, #mainSlider .carousel-item {
-    height: 95vh;
+    height: 100vh;
 }
 
 /* botões */
@@ -86,3 +86,131 @@ header, .navbar {
     background-color: #17739e;
 }
 
+/* Quem somos ? */
+#about-area {
+    background-color: rgb(23, 115, 158);
+}
+
+.main-title {
+    color: #444;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-title::after {
+    content: "";
+    border-top: 2px solid #333;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+}
+
+.about-title {
+    font-size: 17px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold
+}
+
+#about-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#about-list li {
+    line-height: 30px;
+}
+
+#about-list i {
+    color: #444;
+    margin-right: 15px;
+}
+
+.img-fluid {
+    height: 450px; 
+    width: 450px; 
+}
+
+/* Serviços */
+
+.img-service-1 {
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    
+}
+
+.img-service-2 {
+    height: 300px;
+    width: 300px;
+    align-items: center;
+}
+
+.img-service-3 {
+    height: 290px;
+    width: 300px;
+    align-items: center;
+}
+
+.img-service-4 {
+    height: 300px;
+    width: 300px;
+    align-items: center;
+}
+
+.img-service-5 {
+    height: 310px;
+    width: 320px;
+    align-items: center;
+}
+
+.img-service-6 {
+    height: 300px;
+    width: 300px;
+    align-items: center;
+}
+
+.service-box {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service-box i, .service-box h4 {
+    transition: .5s;
+}
+
+.service-box i {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.service-box h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.service-box:hover > i, .service-box:hover > h4, .service-box:hover > p {
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    color:rgb(97, 172, 207);
+
+}
+
+/* Dados da Empresa */
+
+.circle-box div {
+    padding: 0 40px;
+}
+
+.progressbar-text {
+    font-weight: 0 40px;
+}
+
+#data-area p {
+    color: #FFF;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 20px;
+}
